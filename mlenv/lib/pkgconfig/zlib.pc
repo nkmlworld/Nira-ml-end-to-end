@@ -1,0 +1,13 @@
+prefix=/home/niranand.k@ah.zymrinc.com/Documents/end-to-end/mlenv
+exec_prefix=/home/niranand.k@ah.zymrinc.com/Documents/end-to-end/mlenv
+libdir=/home/niranand.k@ah.zymrinc.com/Documents/end-to-end/mlenv/lib
+sharedlibdir=/home/niranand.k@ah.zymrinc.com/Documents/end-to-end/mlenv/lib
+includedir=/home/niranand.k@ah.zymrinc.com/Documents/end-to-end/mlenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
